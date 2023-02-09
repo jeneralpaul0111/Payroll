@@ -6,8 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>jPayroll</title>
     <link rel="stylesheet" href="Styles/header.css" />
+    <link rel="stylesheet" href="Styles/body.css" />
   </head>
   <body>
-    <h1>Online Payrol Philippines</h1>
+    <p class="project">Online Payrol Philippines</p>
+    <div class="typeOption">
+      <div class="payrollType">
+        <label>Daily:</label>
+        <input
+          class="dailyPay"
+          id="monthlyPay"
+          name="dailyPay"
+          type="radio"
+          checked
+        />
+        <label>Monthly:</label>
+        <input
+          class="dailyPay"
+          id="monthlyPay"
+          name="dailyPay"
+          type="radio"
+          unchecked
+        />
+      </div>
+    </div>
+
+    <div class="myFlex">
+      <div class="dataEntry">
+        <table>
+          <tr>
+            <td>DayType</td>
+            <td>Days</td>
+            <td>Rate</td>
+            <td>Amount</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="resulT">
+        <table>
+          <tr>
+            <td>
+              <label> TakeHome: </label>
+            </td>
+            <td class="takeHome">
+              <label id="takeHome">0.00</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label> Tax: </label>
+            </td>
+            <td class="Tax">
+            <label id="Tax">0.00</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+            <label> SSS: </label>
+            </td>
+            <td class="SSS">
+            <label id="SSS">0.00</label>
+            </td>
+          </dtr>
+          <tr>
+            <td>
+            <label> Philhealth: </label>
+            </td>
+            <td class="Philhealth">
+            <label id="Philhealth">0.00</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+            <label> Pagibig: </label>
+            </td>
+            <td class="Pagibig">
+            <label id="Pagibig">0.00</label>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
   </body>
 </html>

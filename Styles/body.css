@@ -1,0 +1,48 @@
+.project {
+  text-align: center;
+  font-family: monospace;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+.typeOption {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+}
+
+.myFlex {
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 1px solid;
+  border-color: black;
+}
+
+.dataEntry {
+  border: 1px solid;
+  border-color: blanchedalmond;
+  margin: 5px;
+  width: 50%;
+}
+
+.resulT {
+  border: 1px solid;
+  border-color: blanchedalmond;
+  margin: 5px;
+  width: 50%;
+}
+
+td {
+  width: 25%;
+  border: 1px solid;
+  border-color: black;
+}
+
+.takeHome,
+.Tax,
+.SSS,
+.Philhealth,
+.Pagibig {
+  width: 100%;
+}
