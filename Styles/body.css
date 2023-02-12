@@ -1,3 +1,7 @@
+body {
+  background-color: aliceblue;
+}
+
 .project {
   text-align: center;
   font-family: monospace;
@@ -37,6 +41,7 @@ td {
   width: 25%;
   border: 1px solid;
   border-color: black;
+  font-size: 100%;
 }
 
 .takeHome,
