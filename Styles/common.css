@@ -1,0 +1,20 @@
+/* Main Settings*/
+
+input {
+  border-radius: 6px;
+  border: 1px solid;
+}
+
+label {
+  width: 30%;
+}
+
+td {
+  border: 1px solid;
+  border-color: black;
+  font-stretch: expanded;
+}
+
+tr {
+  width: 100%;
+}
