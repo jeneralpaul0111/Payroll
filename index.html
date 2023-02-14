@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>jPayroll</title>
-    <link rel="stylesheet" href="Styles/header.css" />
+    <link rel="stylesheet" href="Styles/common.css" />
     <link rel="stylesheet" href="Styles/body.css" />
   </head>
   <body>
@@ -35,14 +35,14 @@
     <div class="myFlex">
       <div class="dataEntry">
             <label>Basic Salary:</label>
-            <input id="basicPay"/>
+            <input class="basicPay" id="basicPay"/>
       </div>
 
       <div class="resulT">
         <table>
           <tr>
             <td>
-              <label> TakeHome: </label>
+              <label class="lblcommon"> TakeHome: </label>
             </td>
             <td class="takeHome">
               <label id="takeHome">0.00</label>
@@ -50,15 +50,15 @@
           </tr>
           <tr>
             <td>
-              <label> Tax: </label>
+              <label class="lblcommon"> Tax: </label>
             </td>
             <td class="Tax">
-            <label id="Tax">0.00</label>
+            <label id="Tax">0.00</label> 
             </td>
           </tr>
           <tr>
             <td>
-            <label> SSS: </label>
+            <label class="lblcommon"> SSS: </label>
             </td>
             <td class="SSS">
             <label id="SSS">0.00</label>
@@ -66,14 +66,14 @@
           </dt>
           <tr>
             <td>
-            <label> Philhealth: </label>
+            <label class="lblcommon"> Philhealth: </label>
             </td>
             <td class="Philhealth">
             <label id="Philhealth">0.00</label>
             </td>
           </tr>
           <tr>
-            <td>
+            <td class="lblcommon">
             <label> Pagibig: </label>
             </td>
             <td class="Pagibig">

@@ -1,5 +1,5 @@
 body {
-  background-color: aliceblue;
+  background-color: whitesmoke;
 }
 
 .project {
@@ -9,39 +9,46 @@ body {
   font-weight: bold;
 }
 
+/* MWE Section */
 .typeOption {
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 10%;
 }
 
+/* MWE Selection End */
+
+/* Main Body */
 .myFlex {
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
   border: 1px solid;
   border-color: black;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .dataEntry {
+  display: flex;
   border: 1px solid;
   border-color: blanchedalmond;
   margin: 5px;
   width: 50%;
+}
+
+.basicPay {
+  width: 100%;
 }
 
 .resulT {
+  display: flex;
   border: 1px solid;
-  border-color: blanchedalmond;
+  border-color: darkgray;
   margin: 5px;
   width: 50%;
 }
 
-td {
-  width: 25%;
-  border: 1px solid;
-  border-color: black;
-  font-stretch: expanded;
+.lblcommon {
+  width: 300px;
 }
 
 .takeHome,
@@ -49,5 +56,8 @@ td {
 .SSS,
 .Philhealth,
 .Pagibig {
+  text-align: end;
   width: 100%;
 }
+
+/* Main Body End */
