@@ -7,83 +7,75 @@
     <title>jPayroll</title>
     <link rel="stylesheet" href="Styles/common.css" />
     <link rel="stylesheet" href="Styles/body.css" />
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css" />
   </head>
   <body>
-    <script> src="js/bootstrap.jp"</script>
+    <script>
+      src = "js/bootstrap.jp";
+    </script>
 
     <p class="project">Online Payroll Philippines</p>
     <div class="typeOption">
       <div class="payrollType">
         <label>Minimum Wage Earner: </label>
-        <input
-          class="MWE"
-          id="MWE"
-          name="MWE"
-          type="radio"
-          checked
-        />
+        <input class="MWE" id="MWE" name="MWE" type="radio" checked />
         <label>Yes</label>
-        <input
-          class="nonMWE"
-          id="nonMWE"
-          name="MWE"
-          type="radio"
-          unchecked
-        />
+        <input class="nonMWE" id="nonMWE" name="MWE" type="radio" unchecked />
         <label>No</label>
       </div>
     </div>
 
     <div class="myFlex">
       <div class="dataEntry">
-            <label>Basic Salary:</label>
-            <input class="basicPay" id="basicPay"/>
+        <div class="lblcommon1">
+          <label>Basic Salary:</label>
+        </div>
+        <div class="lblcommon2">
+          <input id="basicPay" />
+        </div>
       </div>
 
       <div class="resulT">
-        <table>
-          <tr>
-            <td>
-              <label class="lblcommon"> TakeHome: </label>
-            </td>
-            <td class="takeHome">
-              <label id="takeHome">0.00</label>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label class="lblcommon"> Tax: </label>
-            </td>
-            <td class="Tax">
-            <label id="Tax">0.00</label> 
-            </td>
-          </tr>
-          <tr>
-            <td>
-            <label class="lblcommon"> SSS: </label>
-            </td>
-            <td class="SSS">
+        <div class="subFlex">
+          <div class="lblcommon1">
+            <label> TakeHome: </label>
+          </div>
+          <div class="lblcommon2">
+            <label id="takeHome">0.00</label>
+          </div>
+        </div>
+        <div class="subFlex">
+          <div class="lblcommon1">
+            <label> Tax: </label>
+          </div>
+          <div class="lblcommon2">
+            <label id="Tax">0.00</label>
+          </div>
+        </div>
+        <div class="subFlex">
+          <div class="lblcommon1">
+            <label> SSS: </label>
+          </div>
+          <div class="lblcommon2">
             <label id="SSS">0.00</label>
-            </td>
-          </dt>
-          <tr>
-            <td>
-            <label class="lblcommon"> Philhealth: </label>
-            </td>
-            <td class="Philhealth">
+          </div>
+        </div>
+        <div class="subFlex">
+          <div class="lblcommon1">
+            <label> PhilHealth: </label>
+          </div>
+          <div class="lblcommon2">
             <label id="Philhealth">0.00</label>
-            </td>
-          </tr>
-          <tr>
-            <td class="lblcommon">
+          </div>
+        </div>
+        <div class="subFlex">
+          <div class="lblcommon1">
             <label> Pagibig: </label>
-            </td>
-            <td class="Pagibig">
+          </div>
+          <div class="lblcommon2">
             <label id="Pagibig">0.00</label>
-            </td>
-          </tr>
-        </table>
+          </div>
+        </div>
       </div>
     </div>
   </body>

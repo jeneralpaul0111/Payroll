@@ -5,14 +5,14 @@ body {
 .project {
   text-align: center;
   font-family: monospace;
-  font-size: 30pt;
+  font-size: 20pt;
   font-weight: bold;
 }
 
 /* MWE Section */
 .typeOption {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 10%;
 }
 
@@ -23,8 +23,8 @@ body {
   display: flex;
   border: 1px solid;
   border-color: black;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .dataEntry {
@@ -32,32 +32,28 @@ body {
   border: 1px solid;
   border-color: blanchedalmond;
   margin: 5px;
+  padding: 10px;
   width: 50%;
-}
-
-.basicPay {
-  width: 100%;
 }
 
 .resulT {
-  display: flex;
   border: 1px solid;
   border-color: darkgray;
   margin: 5px;
+  padding: 10px;
   width: 50%;
 }
 
-.lblcommon {
-  width: 100%;
+.subFlex {
+  display: flex;
 }
 
-.takeHome,
-.Tax,
-.SSS,
-.Philhealth,
-.Pagibig {
-  text-align: end;
-  width: 100%;
+.lblcommon1 {
+  width: 40%;
+}
+.lblcommon2 {
+  text-align: center;
+  width: auto;
 }
 
 /* Main Body End */
