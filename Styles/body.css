@@ -28,7 +28,6 @@ body {
 }
 
 .dataEntry {
-  display: flex;
   border: 1px solid;
   border-color: blanchedalmond;
   margin: 5px;
@@ -37,7 +36,7 @@ body {
 }
 
 .txtBasicPay {
-  width: 50px;
+  width: 100%;
 }
 
 .resulT {
@@ -53,7 +52,7 @@ body {
 }
 
 .lblcommon1 {
-  width: 40%;
+  width: 90px;
 }
 .lblcommon2 {
   text-align: center;
