@@ -36,6 +36,10 @@ body {
   width: 50%;
 }
 
+.txtBasicPay {
+  width: 50px;
+}
+
 .resulT {
   border: 1px solid;
   border-color: darkgray;
